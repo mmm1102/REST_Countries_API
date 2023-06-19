@@ -16,6 +16,7 @@ function App() {
             path="/:name"
             element={<SingleCountry></SingleCountry>}
           ></Route>
+          {/* <Route path="/:cca3" element={<SingleCountry></SingleCountry>}></Route> */}
         </Routes>
       </div>
     </BrowserRouter>
